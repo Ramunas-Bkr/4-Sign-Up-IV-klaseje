@@ -8,15 +8,23 @@ body * {
 }
 body {
     background-color:aquamarine;
-    background-image: url(../image/background.jpg);
-    /*background-repeat: no-repeat;*/
+}
+.background {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/Kalnas.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh; /* 100 proc ekrano aukscio */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
 .container {
     display: inline-block;
     width: 1000px;
     margin-left: calc( (100% - 1000px) / 2 );
-    margin-top: 80px;
+    margin-top: -670px;
     position: relative;
     }
 .left-side {
